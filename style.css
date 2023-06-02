@@ -134,6 +134,19 @@ p{
     margin-top: 10px;
 }
 
+.footer1{
+    display: inline-block;
+    padding-top: px;
+    padding-left: px;
+    width: 1340px; 
+    float: ; 
+    height: 100px; 
+    margin: px;
+    margin-bottom: px;
+    margin-left: px;
+    margin-top: px;
+}
+
 .seven{
     width: 400px; 
     float: left; 
@@ -142,6 +155,26 @@ p{
     margin: 10px;  
     margin-bottom: 100px;
     margin-left: 400px;
+}
+
+.nine{
+    width: 1330px; 
+    float: left; 
+    height: 200px; 
+    background: aliceblue; 
+    margin: 10px;  
+    margin-bottom: 10px;
+    margin-left: ;
+}
+
+.ten{
+    width: 1330px; 
+    float: left; 
+    height: 600px; 
+    background: aliceblue; 
+    margin: 10px;  
+    margin-bottom: 100px;
+    margin-top: 0px;
 }
 
 
@@ -159,16 +192,16 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 footer{
-    margin-top: auto;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    background-color: brown;
-    margin-top: 40px;
-    text-align: center;
-    padding-top: 10px;
+    background-color: darkgrey;
+    text-align: left;
+    text-decoration: none;
+    padding: 20px;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+}
+.icons{
+    width: 30px;
+    height: 20px;
 }
 
 *, *::after, *::before{
