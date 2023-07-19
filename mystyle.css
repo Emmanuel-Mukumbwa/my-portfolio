@@ -1,0 +1,154 @@
+*{
+marginj: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: arial,;
+}
+
+a{
+text-decoration: none;
+
+}
+
+.hero{
+height: 100vh;
+widith: 100vw;
+background: white;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 100px;
+}
+
+.logo{
+font-size:40px;
+font-weight: bold;
+color: blue;
+cursor: pointer;
+}
+
+.logo::first-letter{
+font-size: 40px;
+border: 2px solid blue;
+border-right: transparent;
+padding-left: 5px;
+color: red;
+
+}
+
+nav ul li{
+display: inline-block;
+list-style: none;
+padding: 10px 20px;
+}
+
+nav ul li a{
+color:black;
+position: relative;
+padding: 5px 0;
+font-weight: bold;
+}
+
+nav ul li a:hover{
+color:red;
+}
+
+nav ul li a::after{
+content: ;
+bottom: 0;
+left: 0;
+width: 0;
+position: absolute;
+height: 3px;
+background: red;
+transition: .3s;
+}
+
+nav ul li a:hover::after{
+width:100%;
+}
+
+.btn{
+color: white;
+font-size: 16px;
+text-transform: uppercase;
+background: red;
+padding: 10px 30px;
+border-radius: 500px;
+display: inline-block;
+font-weight: 500;
+transition: all .4s ease-in-out;
+border: 2px solid red;
+}
+
+.btn:hover{
+background: transparent;
+color: red;
+}
+
+.detail{
+display: block;
+position: absolute;
+top: 35%;
+left: 8%;
+margin-left:200px;
+}
+
+.detail h1{
+
+display: block;
+color: black;
+font-size: 70px;
+font-weight: 700;
+line-height: 70px;
+}
+
+.detail h1 span{
+color: red;
+}
+
+.detail p{
+
+display: block;
+color: black;
+font-size: 20px;
+margin-top: 25px;
+margin-bottom:30px;
+}
+
+ul{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+ul li{
+    color: brown;
+    position: relative;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: brown;
+}
+
+ul li ::after{
+    content: ;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    position: absolute;
+    height: 3px;
+    background: red;
+    transition: .3s;
+}
+
+

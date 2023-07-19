@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(to right, #fdfcfb, #e2d1c3);
+}
+
+.about{
+    margin: auto; 
+    width: 50%; 
+    border: 3px solid brown; 
+    padding: 0px; 
+    margin-top: 100px;
+}
+
+p{
+    text-align: center;
+    color: brown;
+}
+
+h1{
+    text-align: center;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+ul{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+ul li{
+    color: brown;
+    position: relative;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: brown;
+}
+
+ul li ::after{
+    content: ;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    position: absolute;
+    height: 3px;
+    background: red;
+    transition: .3s;
+}
