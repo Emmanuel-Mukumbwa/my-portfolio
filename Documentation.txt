@@ -1,0 +1,6 @@
+=>school project(my portfolio).
+=>to be able to vie the project download all the files.
+=>copy and paste the files into "myportfolio" folder.
+=>copy and pste the "myportfolio" folder in xamp/htdocs/ folder if you are using xamp.
+=>import the database named "portfolio".
+=>to run the site in your browser, use the "localhost/myportfolio/index.php" link.
